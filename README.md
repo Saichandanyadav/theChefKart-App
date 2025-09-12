@@ -6,19 +6,15 @@
 
 ---
 
-## Live links
+## 🌐 Live links
 
-> Replace these placeholders with your real URLs before sharing.
-
-* **Staging / Demo URL:** `https://your-demo-url.example.com`
-* **Production URL:** `https://your-production-url.example.com`
-* **Figma mock / design:** `[Figma link placeholder]`
-* **GitHub repository:** `https://github.com/<your-username>/party-menu-app`
-* **LinkedIn (owner):** [https://www.linkedin.com/in/saichandanyadav/](https://www.linkedin.com/in/saichandanyadav/)
+* **Demo / Production URL:** [https://the-chef-kart-app.vercel.app/](https://the-chef-kart-app.vercel.app/)
+* **GitHub Repository:** [https://github.com/Saichandanyadav/theChefKart-App](https://github.com/Saichandanyadav/theChefKart-App)
+* **LinkedIn (Owner):** [Sai Chandan Yadav](https://www.linkedin.com/in/saichandanyadav/)
 
 ---
 
-## Table of contents
+## 📑 Table of contents
 
 1. Project overview
 2. Features & Functional requirements
@@ -37,27 +33,32 @@
 
 ## 1. Project overview
 
-**Thechefkart** (a.k.a. `party-menu-app`) is a small ReactJS frontend project that lets users build a party menu by selecting dishes from categorized meal tabs (Starter, Main Course, Dessert, Sides). The app demonstrates component-driven architecture, hooks usage, search & filter logic, and navigation to an ingredient detail screen.
+**Thechefkart** (a.k.a. `party-menu-app`) is a ReactJS frontend project that lets users build a party menu by selecting dishes from categorized meal tabs (Starter, Main Course, Dessert, Sides).
 
-This repository contains a focused, single-page React application using mock JSON to represent dishes and ingredient lists.
+The app demonstrates component-driven architecture, React Hooks, search & filter logic, and navigation to an ingredient detail screen. It runs fully on the frontend using **mock JSON data** for dishes and ingredients.
 
 ---
 
 ## 2. Features & Functional requirements (implemented)
 
-* **Menu categories (tabs):** Starter, Main Course, Dessert, Sides. Clicking a tab shows dishes from that category.
-* **Dish cards:** Each card shows name, short description, image, Add/Remove button and an "Ingredient" link that opens the ingredient details screen.
-* **Search:** Top search bar filters dishes by name (case-insensitive) and scopes the search to the currently selected category.
-* **Veg / Non-Veg filters:** Two toggles (Veg, Non-Veg) to filter current list; filters apply immediately.
-* **Selection tracking:** Selected dishes get a clear visual mark; category tabs show counts; a footer shows total selected count and a `Continue` button (no further navigation required).
-* **Ingredient screen:** When user clicks "Ingredient" the app navigates to a dedicated ingredient page showing dish name, short description and a list of ingredients with quantities (mock data).
+* **Menu categories (tabs):** Starter, Main Course, Dessert, Sides.
+* **Dish cards:** Show name, short description, image, Add/Remove button, and “Ingredient” link.
+* **Search:** Top search bar filters dishes by name (case-insensitive) within the selected category.
+* **Veg / Non-Veg filters:** Instant toggles to filter dish list.
+* **Selection tracking:**
+
+  * Visual marker on selected dishes.
+  * Category tabs show counts.
+  * Footer shows total selected count and a `Continue` button.
+* **Ingredient screen:** Dedicated ingredient page with dish name, description, and ingredient list (from mock JSON).
 
 ---
 
 ## 3. Project title and branding
 
-* **Project Title:** Thechefkart
-* Keep the brand copy short, use a simple logo (text-based) or a small SVG. Color palette should remain neutral and food-friendly (warm accent color for CTAs).
+* **Title:** Thechefkart
+* **Brand style:** Minimal, food-friendly color palette with warm accent color for CTAs.
+* **Logo:** Simple text-based or lightweight SVG recommended.
 
 ---
 
@@ -86,51 +87,72 @@ party-menu-app/
 └── package.json
 ```
 
-> This layout keeps assets separate from components and pages. `data.json` contains the mock data for dishes & ingredients.
-
 ---
 
 ## 5. Data format (mock JSON)
 
-Place this file at `src/assets/data.json` and import it where needed.
+`src/assets/data.json`:
 
 ```json
 {
   "dishes": [
     {
-      "id": "d1",
-      "name": "Crispy Veg Spring Rolls",
-      "category": "Starter",
-      "description": "Thin rolls stuffed with mixed vegetables and served with sweet chili sauce.",
-      "isVeg": true,
-      "image": "/assets/images/spring_rolls.jpg",
+      "categoryId": 1,
+      "mealType": "MAIN COURSE",
+      "type": "VEG",
+      "description": "A creamy and flavorful lentil dish, slow-cooked with spices, butter, and cream.",
+      "image": "/veg.jpg",
+      "category": {
+        "id": 1,
+        "name": "North Indian",
+        "image": "/veg.jpg",
+        "isRecommendedForMealSuggestion": true
+      },
+      "dishType": "CURRY",
+      "forChefit": true,
+      "forParty": true,
+      "id": 1,
+      "name": "Dal Makhani",
       "ingredients": [
-        { "name": "Cabbage", "quantity": "100g" },
-        { "name": "Carrot", "quantity": "50g" },
-        { "name": "Spring roll wrapper", "quantity": "4 pcs" }
+        { "name": "Black lentils", "quantity": "1 cup" },
+        { "name": "Kidney beans", "quantity": "1/4 cup" },
+        { "name": "Tomato puree", "quantity": "1/2 cup" },
+        { "name": "Cream", "quantity": "1/4 cup" },
+        { "name": "Butter", "quantity": "2 tbsp" }
       ]
     },
     {
-      "id": "d2",
+      "categoryId": 2,
+      "mealType": "MAIN COURSE",
+      "type": "NON-VEG",
+      "description": "Tender chicken cooked in creamy tomato gravy.",
+      "image": "/nonveg.jpg",
+      "category": {
+        "id": 2,
+        "name": "North Indian",
+        "image": "/nonveg.jpg",
+        "isRecommendedForMealSuggestion": false
+      },
+      "dishType": "CURRY",
+      "forChefit": true,
+      "forParty": true,
+      "id": 2,
       "name": "Butter Chicken",
-      "category": "Main Course",
-      "description": "Tender chicken cooked in a creamy tomato-based gravy.",
-      "isVeg": false,
-      "image": "/assets/images/butter_chicken.jpg",
       "ingredients": [
         { "name": "Chicken", "quantity": "300g" },
-        { "name": "Tomato puree", "quantity": "150g" }
+        { "name": "Tomato puree", "quantity": "150g" },
+        { "name": "Cream", "quantity": "1/4 cup" },
+        { "name": "Butter", "quantity": "2 tbsp" }
       ]
     }
-    // ...more dishes
   ]
 }
 ```
 
 **Notes:**
 
-* `category` must match one of the tab names exactly: `Starter`, `Main Course`, `Dessert`, `Sides`.
-* `isVeg` boolean controls the Veg / Non-Veg filtering.
+* `mealType` maps to category tabs: `Starter`, `Main Course`, `Dessert`, `Sides`.
+* `type` controls Veg / Non-Veg filtering.
 * `ingredients` array is used on the Ingredient page.
 
 ---
@@ -139,124 +161,87 @@ Place this file at `src/assets/data.json` and import it where needed.
 
 ### Components
 
-* `Header.js`
-
-  * Contains app title, search bar, and filter toggles (Veg / Non-Veg).
-  * Emits search text and filter state upward via props or context.
-
-* `DishList.js`
-
-  * Responsible for rendering the grid/list of `DishCard` components for the selected category.
-  * Accepts props for current category, search string, veg/non-veg filter flags, and selected items.
-  * Handles list filtering (category + search + veg/non-veg) and renders items.
-
-* `DishCard.js`
-
-  * Displays dish image, name, short description, Add/Remove button, and an `Ingredient` button.
-  * Shows a selected badge or overlay when dish is chosen.
-  * Calls callback props: `onToggleSelect(dishId)` and `onViewIngredients(dishId)`.
-
-* `Modal.js` (optional)
-
-  * Generic modal used for confirmations or quick ingredient previews (if desired).
-
-* `Footer.js`
-
-  * Shows counts per category and the total selected items plus the `Continue` button.
+* **Header.js** → App title, search, Veg/Non-Veg filters.
+* **DishList.js** → Renders dishes with applied filters and category selection.
+* **DishCard.js** → Displays dish info with Add/Remove + Ingredient actions.
+* **Modal.js** → Optional reusable modal.
+* **Footer.js** → Shows selected dish count + Continue button.
 
 ### Pages
 
-* `HomePage.js`
-
-  * Composes the header, category tabs, `DishList`, and footer.
-  * Manages selection state (using React Hooks) and aggregates counts per category.
-
-* `IngredientPage.js`
-
-  * Displays the selected dish details: name, description and ingredient list with quantities.
-  * Navigated to when user clicks the `Ingredient` button on a dish card.
-
-* `RestaurantPage.js`
-
-  * Optional: show restaurant-specific menu or additional metadata (useful for future extension).
+* **HomePage.js** → Composes Header, category tabs, DishList, Footer.
+* **IngredientPage.js** → Displays dish details with ingredient list.
+* **RestaurantPage.js** → Placeholder for future extension.
 
 ---
 
 ## 7. Tech stack & constraints
 
-* **React** (functional components + Hooks only)
-* **React Router** for navigation (React Navigation is typically used for React Native; for a web-based frontend use React Router). If you intentionally build a React Native app, use `react-navigation`.
-* CSS: basic CSS in `styles.css`. You may replace with CSS Modules / Sass or Tailwind in future iterations.
-* No backend or persistence required — mock JSON only.
-* No local storage required (per constraints).
+* **ReactJS (Hooks, functional components)**
+* **React Router** for navigation
+* **CSS**: simple global stylesheet (`styles.css`)
+* **Mock JSON only** — no backend or persistence
+* No localStorage (per assignment constraints)
 
 ---
 
 ## 8. Installation & run (local)
 
-1. Clone the repository:
-
 ```bash
-git clone https://github.com/<your-username>/party-menu-app.git
-cd party-menu-app
-```
+# Clone repo
+git clone https://github.com/Saichandanyadav/theChefKart-App.git
+cd theChefKart-App
 
-2. Install dependencies:
-
-```bash
+# Install dependencies
 npm install
-```
 
-3. Start the dev server:
-
-```bash
+# Run dev server
 npm start
 ```
 
-4. Open your browser at `http://localhost:3000` (CRA default) to view the app.
+Open at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 9. Available scripts (package.json)
+## 9. Available scripts
 
-* `npm start` - Start development server
-* `npm run build` - Create production build
-* `npm test` - Run unit tests (if configured)
-* `npm run lint` - Lint the codebase (if configured)
+* `npm start` → Start dev server
+* `npm run build` → Production build
+* `npm test` → Run tests (if configured)
+* `npm run lint` → Linting (if configured)
 
 ---
 
-## 10. UI / UX notes & accessibility
+## 10. UI / UX notes
 
-* Use clear visual markers for selected dishes (badge, border, or subtle overlay).
-* Keep search input prominent and immediately responsive.
-* Category tabs should show per-category selected counts (e.g. `Starter (2)`).
-* Keyboard navigation: ensure `tabindex` on interactive elements and `aria-labels` for buttons.
-* Use `alt` text for dish images.
+* Highlight selected dishes visually (badge/overlay).
+* Category tabs show selected counts.
+* Search is instant and scoped by category.
+* Accessibility:
+
+  * Keyboard focusable elements
+  * `aria-labels` on buttons
+  * `alt` text for images
 
 ---
 
 ## 11. How to extend / next steps
 
-* Persist selections to localStorage or a backend.
-* Add user authentication and save favorite menus.
-* Add quantity selectors per dish and price calculations.
-* Add unit/e-commerce integration to convert selection into an order.
+* Save selections in localStorage or backend.
+* Add authentication + favorites.
+* Add price + quantity selection.
+* Export menu as order/cart.
 
 ---
 
 ## 12. Contribution & License
 
-* Fork the repo, create a feature branch, raise a PR for changes.
-* Use a permissive license such as MIT (add a `LICENSE` file if required).
+* Fork → Create branch → Raise PR.
+* Recommended license: **MIT**.
 
 ---
 
-### Final notes
+### ✅ Final notes
 
-* Project title is set to **Thechefkart** in this README. Update the Figma and live URLs with your real links before presenting.
-* This README contains the required directory layout and a complete description of how the app should work and how to run it.
-
----
-
-*Created for the Frontend Assignment — 2025.*
+This project **Thechefkart (party-menu-app)** is deployed at:
+🔗 [the-chef-kart-app.vercel.app](https://the-chef-kart-app.vercel.app/)
