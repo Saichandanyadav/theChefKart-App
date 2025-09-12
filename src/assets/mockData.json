@@ -1,0 +1,1757 @@
+[
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A creamy and flavorful lentil dish, slow-cooked with spices, butter, and cream.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 1,
+    "name": "Dal Makhani",
+    "ingredients": [
+      {
+        "name": "Black lentils",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Kidney beans",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Tomato puree",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Butter",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A spicy and tangy paneer dish with onions and bell peppers, cooked in a traditional kadhai.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 2,
+    "name": "Kadhai Paneer",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "quantity": "250g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Capsicum",
+        "quantity": "1 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Soft potato and paneer dumplings simmered in a rich, creamy, and mildly sweet gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 3,
+    "name": "Malai Kofta",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Paneer",
+        "quantity": "100g"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Cashew paste",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A spicy and tangy chickpea curry, a staple of Punjabi cuisine.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 4,
+    "name": "Chole Bhature",
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Chana masala",
+        "quantity": "1 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Smoky mashed eggplant cooked with a medley of onions, tomatoes, and spices.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 5,
+    "name": "Baingan Bharta",
+    "ingredients": [
+      {
+        "name": "Eggplant",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Green chilies",
+        "quantity": "2 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A rich and delicious curry made from a mix of vegetables and paneer in a creamy cashew gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 6,
+    "name": "Navratan Korma",
+    "ingredients": [
+      {
+        "name": "Mixed vegetables",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Paneer",
+        "quantity": "100g"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Cashew paste",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Spinach puree with cubes of paneer, spiced with ginger, garlic, and garam masala.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 7,
+    "name": "Palak Paneer",
+    "ingredients": [
+      {
+        "name": "Spinach",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Paneer",
+        "quantity": "200g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "2 cloves"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Cauliflower and potato florets stir-fried with turmeric and Indian spices.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 8,
+    "name": "Aloo Gobi",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Cauliflower",
+        "quantity": "1/2 head"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Aloo, gobhi, and matar cooked together in a tomato-based curry.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 9,
+    "name": "Aloo Gobhi Matar",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Cauliflower",
+        "quantity": "1/4 head"
+      },
+      {
+        "name": "Green peas",
+        "quantity": "1/2 cup"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Mushrooms and green peas in a rich, spiced tomato-based gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 10,
+    "name": "Matar Mushroom",
+    "ingredients": [
+      {
+        "name": "Mushrooms",
+        "quantity": "200g"
+      },
+      {
+        "name": "Green peas",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Bhindi sauteed with crunchy onions and aromatic spices.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 11,
+    "name": "Bhindi Masala",
+    "ingredients": [
+      {
+        "name": "Okra",
+        "quantity": "250g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A traditional Rajasthani dish with gram flour dumplings in a spicy yogurt curry.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 12,
+    "name": "Gatte Ki Sabzi",
+    "ingredients": [
+      {
+        "name": "Gram flour",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Turmeric powder",
+        "quantity": "1/2 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Tender corn kernels and spinach in a creamy, spiced gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 13,
+    "name": "Corn Palak",
+    "ingredients": [
+      {
+        "name": "Sweet corn",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Spinach",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Delicious and healthy stir-fried cabbage with green peas and mild spices.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 14,
+    "name": "Band Gobhi Matar",
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "quantity": "1/2 head"
+      },
+      {
+        "name": "Green peas",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A delightful preparation of potatoes and tomatoes in a simple, home-style curry.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 15,
+    "name": "Aloo Tamatar",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "quantity": "3 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Juicy cottage cheese cubes in a rich, buttery tomato and cashew gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 16,
+    "name": "Shahi Paneer",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "quantity": "250g"
+      },
+      {
+        "name": "Tomato puree",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Cashew paste",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Grilled marinated cottage cheese cubes in a spicy and creamy onion-tomato gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 17,
+    "name": "Paneer Tikka Masala",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "quantity": "250g"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A delightful combination of tender green peas and soft paneer in a spiced gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 18,
+    "name": "Matar Paneer",
+    "ingredients": [
+      {
+        "name": "Green peas",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Paneer",
+        "quantity": "200g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "An authentic North Indian curry with mixed vegetables, prepared with a special 'dhaba' style masala.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 19,
+    "name": "Veg Kolhapuri",
+    "ingredients": [
+      {
+        "name": "Mixed vegetables",
+        "quantity": "3 cups"
+      },
+      {
+        "name": "Red chili powder",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": "1/2 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Creamy and rich curry with paneer, cooked in a sweet and sour tomato gravy with capsicum.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 20,
+    "name": "Paneer Lababdar",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "quantity": "250g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/2 cup"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A delicious curry of tender button mushrooms in a thick, spicy gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 21,
+    "name": "Mushroom Masala",
+    "ingredients": [
+      {
+        "name": "Mushrooms",
+        "quantity": "200g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "quantity": "1 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Deep-fried vegetables and koftas simmered in a spicy and flavorful gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 22,
+    "name": "Vegetable Kofta Curry",
+    "ingredients": [
+      {
+        "name": "Mixed vegetables",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Gram flour",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A classic potato and cumin seed preparation, simple and delicious.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 23,
+    "name": "Jeera Aloo",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "quantity": "4 PC"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": "2 tsp"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "1 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Spicy and tangy okra curry with a hint of onion and tomato.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 24,
+    "name": "Bhindi Do Pyaza",
+    "ingredients": [
+      {
+        "name": "Okra",
+        "quantity": "250g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A comforting lentil curry tempered with ghee, cumin seeds, and dry red chilies.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 25,
+    "name": "Dal Tadka",
+    "ingredients": [
+      {
+        "name": "Toor dal",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A mildly sweet and tangy curry with creamy paneer cubes, tomatoes, and cashew nuts.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 26,
+    "name": "Paneer Butter Masala",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "quantity": "250g"
+      },
+      {
+        "name": "Butter",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Tomato puree",
+        "quantity": "1 cup"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A fiery and delicious dish of mixed vegetables in a thick, red gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 27,
+    "name": "Mixed Veg Curry",
+    "ingredients": [
+      {
+        "name": "Mixed vegetables",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "quantity": "1 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Crispy fried baby potatoes with a spicy and flavorful masala coating.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 28,
+    "name": "Dum Aloo",
+    "ingredients": [
+      {
+        "name": "Baby potatoes",
+        "quantity": "500g"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Fennel seeds",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A famous Indian dish made with chickpeas and spices.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 29,
+    "name": "Chana Masala",
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "A delicious combination of green peas and fenugreek leaves in a rich and creamy gravy.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 30,
+    "name": "Methi Matar Malai",
+    "ingredients": [
+      {
+        "name": "Green peas",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Fenugreek leaves",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/2 cup"
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "description": "Spicy and tangy fried vegetable balls in a savory sauce.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 2,
+      "name": "Chinese",
+      "image": "/veg.jpg"
+    },
+    "dishType": "APPETIZER",
+    "id": 31,
+    "name": "Gobi Manchurian",
+    "ingredients": [
+      {
+        "name": "Cauliflower",
+        "quantity": "1 head"
+      },
+      {
+        "name": "Cornflour",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "Crispy chicken wings tossed in a spicy sauce.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 2,
+      "name": "Chinese",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "APPETIZER",
+    "id": 32,
+    "name": "Spicy Chicken Wings",
+    "ingredients": [
+      {
+        "name": "Chicken wings",
+        "quantity": "500g"
+      },
+      {
+        "name": "All-purpose flour",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Chili powder",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "A popular Indo-Chinese dish with crispy fried chicken cubes tossed in a spicy, tangy, and sweet sauce.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 2,
+      "name": "Chinese",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "APPETIZER",
+    "id": 38,
+    "name": "Chicken 65",
+    "ingredients": [
+      {
+        "name": "Chicken cubes",
+        "quantity": "300g"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Red chili powder",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "Crispy spring rolls filled with a delicious mix of shredded vegetables and minced chicken.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 2,
+      "name": "Chinese",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "APPETIZER",
+    "id": 39,
+    "name": "Chicken Spring Rolls",
+    "ingredients": [
+      {
+        "name": "Spring roll wrappers",
+        "quantity": "10 PC"
+      },
+      {
+        "name": "Chicken mince",
+        "quantity": "200g"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": "1 cup shredded"
+      },
+      {
+        "name": "Carrot",
+        "quantity": "1 cup shredded"
+      }
+    ]
+  },
+  {
+    "categoryId": 3,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "description": "Soft cheese balls soaked in a creamy, sweetened milk.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 3,
+      "name": "Desserts",
+      "image": "/veg.jpg"
+    },
+    "dishType": "DESSERT",
+    "id": 33,
+    "name": "Rasmalai",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "quantity": "200g"
+      },
+      {
+        "name": "Milk",
+        "quantity": "1 Litre"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Cardamom powder",
+        "quantity": "1/2 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 4,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "description": "Soft and fluffy Indian bread cooked in a tandoor.",
+    "image": "/veg.jpg",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "/veg.jpg"
+    },
+    "dishType": "BREAD",
+    "id": 34,
+    "name": "Butter Naan",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Butter",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "A delicious and rich Mughlai chicken dish with a creamy gravy.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 35,
+    "name": "Chicken Changezi",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": "500g"
+      },
+      {
+        "name": "Tomato puree",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Onion paste",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/4 cup"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "DESSERT",
+    "type": "NON-VEG",
+    "description": "Traditional sweet made from eggs, sugar, and milk, often found in Mughlai cuisine.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "DESSERT",
+    "id": 36,
+    "name": "Anda Ka Halwa",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": "4 PC"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Milk",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "description": "A classic savory side dish with scrambled eggs, onions, and spices.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 37,
+    "name": "Egg Bhurji",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": "3 PC"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Turmeric powder",
+        "quantity": "1/2 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "A rich and creamy North Indian curry with grilled chicken pieces in a spiced tomato gravy.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 40,
+    "name": "Butter Chicken",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": "500g"
+      },
+      {
+        "name": "Tomato puree",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Butter",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "A spicy and flavorful curry with chicken cooked in a traditional kadhai with onions and bell peppers.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 41,
+    "name": "Kadhai Chicken",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": "500g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Capsicum",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Coriander seeds",
+        "quantity": "1 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "A savory and tangy mutton curry with onions and spices, a staple in North Indian cuisine.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 42,
+    "name": "Mutton Rogan Josh",
+    "ingredients": [
+      {
+        "name": "Mutton",
+        "quantity": "500g"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Kashmiri red chili powder",
+        "quantity": "1 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "A delicious preparation of chicken in a rich and aromatic gravy with spices.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 43,
+    "name": "Chicken Curry",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": "500g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "Tender pieces of chicken cooked in a rich, mild, and creamy gravy with cashews and nuts.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 44,
+    "name": "Chicken Korma",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": "500g"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Cashew paste",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/4 cup"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "An authentic Goan curry with tender fish pieces in a spicy and tangy coconut-based gravy.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 45,
+    "name": "Goan Fish Curry",
+    "ingredients": [
+      {
+        "name": "Fish fillets",
+        "quantity": "500g"
+      },
+      {
+        "name": "Coconut milk",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Tamarind paste",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Red chili powder",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "A classic Bengali delicacy with mustard-based fish curry.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 46,
+    "name": "Sorse Ilish",
+    "ingredients": [
+      {
+        "name": "Hilsa fish",
+        "quantity": "500g"
+      },
+      {
+        "name": "Mustard paste",
+        "quantity": "3 tbsp"
+      },
+      {
+        "name": "Mustard oil",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Green chilies",
+        "quantity": "4 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "description": "A spicy and savory egg curry with boiled eggs in a thick gravy.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 47,
+    "name": "Egg Curry",
+    "ingredients": [
+      {
+        "name": "Boiled eggs",
+        "quantity": "4 PC"
+      },
+      {
+        "name": "Onion",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "description": "A popular South Indian dish with succulent prawn pieces in a spicy and tangy gravy.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 48,
+    "name": "Prawn Masala",
+    "ingredients": [
+      {
+        "name": "Prawns",
+        "quantity": "500g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Coconut milk",
+        "quantity": "1/2 cup"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "Tender chicken pieces marinated in yogurt and spices, grilled to perfection in a tandoor.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "STARTER",
+    "id": 49,
+    "name": "Chicken Tikka",
+    "ingredients": [
+      {
+        "name": "Chicken boneless",
+        "quantity": "500g"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Red chili powder",
+        "quantity": "1 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "Spicy chicken pieces deep-fried until golden and crispy.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "STARTER",
+    "id": 50,
+    "name": "Chicken Pakora",
+    "ingredients": [
+      {
+        "name": "Chicken boneless",
+        "quantity": "300g"
+      },
+      {
+        "name": "Gram flour",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Chaat masala",
+        "quantity": "1 tsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "Tender mutton pieces marinated and grilled in a clay oven with a smoky flavor.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "STARTER",
+    "id": 51,
+    "name": "Tandoori Mutton",
+    "ingredients": [
+      {
+        "name": "Mutton pieces",
+        "quantity": "500g"
+      },
+      {
+        "name": "Yogurt",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Tandoori masala",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "quantity": "1 tbsp"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "description": "A delicious and quick scrambled egg stir-fried with Indian spices.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "SIDES",
+    "id": 52,
+    "name": "Spicy Egg Bhurji",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": "3 PC"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1 PC"
+      },
+      {
+        "name": "Green chilies",
+        "quantity": "2 PC"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "description": "A simple and comforting rice dish with a flavorful mix of spices and eggs.",
+    "image": "/non-veg.jpg",
+    "category": {
+      "id": 5,
+      "name": "Non-Veg Indian",
+      "image": "/non-veg.jpg"
+    },
+    "dishType": "RICE",
+    "id": 53,
+    "name": "Egg Fried Rice",
+    "ingredients": [
+      {
+        "name": "Cooked rice",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  }
+]
