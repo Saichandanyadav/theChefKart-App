@@ -1,20 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaTimes } from 'react-icons/fa';
 
-const IngredientModal = ({ selectedDishes, onRemove, onClose }) => {
-  const [orderPlaced, setOrderPlaced] = useState(false);
-  const [showConfirmation, setShowConfirmation] = useState(false);
-
-  const handleOrderNow = () => {
-    if (selectedDishes.length > 0) {
-      setOrderPlaced(true);
-      setShowConfirmation(true);
-      
-      setTimeout(() => {
-        setShowConfirmation(false);
-        onClose();
-      }, 3000);
-    }
+const IngredientModal = ({ selectedDishes, onRemove, onPlaceOrder, onClose }) => {
+  const handlePlaceOrder = () => {
+    onPlaceOrder();
   };
 
   return (
@@ -42,18 +31,12 @@ const IngredientModal = ({ selectedDishes, onRemove, onClose }) => {
             ))
           )}
         </div>
-        {selectedDishes.length > 0 && !orderPlaced && (
+        {selectedDishes.length > 0 && (
           <div className="order-now-btn-container">
-            <button onClick={handleOrderNow} className="order-now-btn">Order Now</button>
+            <button onClick={handlePlaceOrder} className="order-now-btn">Order Now</button>
           </div>
         )}
       </div>
-
-      {showConfirmation && (
-        <div className="order-confirmation">
-          <p>Your order has been successfully placed!</p>
-        </div>
-      )}
     </div>
   );
 };

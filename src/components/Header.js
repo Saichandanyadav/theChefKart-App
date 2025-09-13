@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaAngleLeft, FaSearch } from 'react-icons/fa';
+import { FaAngleLeft, FaSearch, FaShoppingBag } from 'react-icons/fa';
 
-const Header = ({ onBack, onSearchChange, searchTerm }) => {
+const Header = ({ onBack, onSearchChange, searchTerm, onShowOrders, orderCount }) => {
   return (
     <div className="header">
       <button onClick={onBack} className="icon-button">
@@ -17,6 +17,10 @@ const Header = ({ onBack, onSearchChange, searchTerm }) => {
         />
         <FaSearch className="search-icon" />
       </div>
+      <button className="orders-icon-button" onClick={onShowOrders}>
+        <FaShoppingBag />
+        {orderCount > 0 && <span className="order-count">{orderCount}</span>}
+      </button>
     </div>
   );
 };

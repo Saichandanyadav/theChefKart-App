@@ -1,20 +1,38 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import DishCard from '../components/DishCard';
 import Footer from '../components/Footer';
 import VegNonVegFilter from '../components/VegNonVegFilter';
 import IngredientModal from '../components/IngredientModal';
+import OrdersModal from '../components/OrdersModal';
 import mockData from '../assets/mockData.json';
 
 const DishListPage = () => {
   const navigate = useNavigate();
-  const [selectedDishes, setSelectedDishes] = useState([]);
+
+  const [selectedDishes, setSelectedDishes] = useState(() => {
+    const savedDishes = localStorage.getItem('selectedDishes');
+    return savedDishes ? JSON.parse(savedDishes) : [];
+  });
+
+  const [placedOrders, setPlacedOrders] = useState(() => {
+    const savedOrders = localStorage.getItem('placedOrders');
+    return savedOrders ? JSON.parse(savedOrders) : [];
+  });
+
   const [activeTab, setActiveTab] = useState('MAIN COURSE');
   const [searchTerm, setSearchTerm] = useState('');
   const [vegOnly, setVegOnly] = useState(false);
   const [nonVegOnly, setNonVegOnly] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isIngredientModalOpen, setIsIngredientModalOpen] = useState(false);
+  const [isOrdersModalOpen, setIsOrdersModalOpen] = useState(false);
+  const [showConfirmation, setShowConfirmation] = useState(false);
+
+  useEffect(() => {
+    localStorage.setItem('selectedDishes', JSON.stringify(selectedDishes));
+    localStorage.setItem('placedOrders', JSON.stringify(placedOrders));
+  }, [selectedDishes, placedOrders]);
 
   const mealTypes = useMemo(() => ['STARTER', 'MAIN COURSE', 'DESSERT', 'SIDES'], []);
 
@@ -33,11 +51,27 @@ const DishListPage = () => {
   }, [activeTab, searchTerm, vegOnly, nonVegOnly]);
 
   const handleAddDish = (dish) => {
-    setSelectedDishes(prev => [...prev, dish]);
+    if (!selectedDishes.some(d => d.id === dish.id)) {
+      setSelectedDishes(prev => [...prev, dish]);
+    }
   };
 
   const handleRemoveDish = (dishToRemove) => {
     setSelectedDishes(prev => prev.filter(dish => dish.id !== dishToRemove.id));
+  };
+
+  const handlePlaceOrder = () => {
+    if (selectedDishes.length > 0) {
+      const newOrder = {
+        date: new Date(),
+        items: selectedDishes
+      };
+      setPlacedOrders(prev => [...prev, newOrder]);
+      setSelectedDishes([]);
+      setIsIngredientModalOpen(false);
+      setShowConfirmation(true);
+      setTimeout(() => setShowConfirmation(false), 3000);
+    }
   };
 
   const handleIngredientClick = (dish) => {
@@ -45,7 +79,7 @@ const DishListPage = () => {
   };
 
   const handleContinue = () => {
-    setIsModalOpen(true);
+    setIsIngredientModalOpen(true);
   };
 
   const handleVegToggle = () => {
@@ -73,6 +107,8 @@ const DishListPage = () => {
           onBack={() => navigate(-1)}
           searchTerm={searchTerm}
           onSearchChange={(e) => setSearchTerm(e.target.value)}
+          onShowOrders={() => setIsOrdersModalOpen(true)}
+          orderCount={placedOrders.length}
         />
         <div className="tabs-container">
           {mealTypes.map(type => (
@@ -111,16 +147,30 @@ const DishListPage = () => {
           <button className="scroll-bottom" onClick={scrollToBottom}>↓</button>
         </div>
       </div>
-      <Footer
-        totalDishes={selectedDishes.length}
-        onContinue={handleContinue}
-      />
-      {isModalOpen && (
+      {selectedDishes.length > 0 && (
+        <Footer
+          totalDishes={selectedDishes.length}
+          onContinue={handleContinue}
+        />
+      )}
+      {isIngredientModalOpen && (
         <IngredientModal
           selectedDishes={selectedDishes}
           onRemove={handleRemoveDish}
-          onClose={() => setIsModalOpen(false)}
+          onPlaceOrder={handlePlaceOrder}
+          onClose={() => setIsIngredientModalOpen(false)}
         />
+      )}
+      {isOrdersModalOpen && (
+        <OrdersModal
+          placedOrders={placedOrders}
+          onClose={() => setIsOrdersModalOpen(false)}
+        />
+      )}
+      {showConfirmation && (
+        <div className="order-confirmation">
+          <p>Your order has been successfully placed!</p>
+        </div>
       )}
     </div>
   );

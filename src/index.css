@@ -91,6 +91,28 @@ body {
   color: #aaa;
 }
 
+.orders-icon-button {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  color: #ff5722;
+  cursor: pointer;
+  padding: 0 0.3rem;
+  position: relative;
+}
+
+.order-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
 .tabs-container {
   display: flex;
   justify-content: space-around;
@@ -275,7 +297,6 @@ body {
   border-radius: 25px;
 }
 
-
 .remove-btn {
   background: none;
   border: none;
@@ -402,12 +423,9 @@ body {
   width: 100%;
   max-width: 600px;
   animation: slideUp 0.3s forwards;
-}
-
-@keyframes slideUp {
-  to {
-    transform: translateY(0);
-  }
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-header {
@@ -417,6 +435,7 @@ body {
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
+  flex-shrink: 0;
 }
 
 .modal-header h3 {
@@ -434,8 +453,9 @@ body {
 }
 
 .modal-dish-list {
-  max-height: 420px;
+  flex-grow: 1;
   overflow-y: auto;
+  padding-right: 1rem;
 }
 
 .modal-dish-card {
@@ -482,6 +502,7 @@ body {
 .order-now-btn-container {
   margin-top: 1rem;
   text-align: center;
+  flex-shrink: 0;
 }
 
 .order-now-btn {
@@ -543,6 +564,57 @@ body {
   background-color: #ddd;
 }
 
+.order-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-item:hover {
+  background-color: #f1f1f1;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #777;
+  padding-bottom: 0.5rem;
+  pointer-events: none;
+}
+
+.order-items-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding-top: 0;
+}
+
+.order-item.expanded .order-items-container {
+  max-height: 500px;
+  transition: max-height 0.5s ease-in;
+  padding-top: 1rem;
+}
+
+.order-separator {
+  border: none;
+  border-top: 1px dashed #ddd;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 
 @keyframes slideUpConfirmation {
   0% {
@@ -596,7 +668,6 @@ body {
     max-height: none;
     padding-left: 1px;
   }
-
   .order-confirmation {
     max-width: 95%;
     padding: 0.8rem 1.5rem;
